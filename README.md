@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Maths Magician
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Single Page Application that helps maths lovers solve simple mathematical equations.
 
 ## Available Scripts
 
@@ -39,12 +39,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
@@ -68,3 +62,60 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Built With
+
+- HTML
+- CSS
+- Javascript
+- React
+
+
+## Getting Started
+
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- You need to have git installed in your machine.
+- A text editor or terminal
+- A web browser to view output
+
+### Live Demo
+
+To see live demo, click [here](https://haywayaheadshot.github.io/maths-magician/)
+
+### Setup
+- To clone the repository run this command - " git clone https://github.com/Haywayaheadshot/maths-magician.git "
+
+
+## Author
+
+👤 **Abubakar Ummar**
+
+- GitHub: [@Haywayaheadshot](https://github.com/Haywayaheadshot)
+- Twitter: [@haywayalive](https://twitter.com/haywayalive)
+- LinkedIn: [Abubakar Ummar](https://linkedin.com/in/abubakar-ummar-4b6643245)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowlegement
+- Thanks to my coding partners
+- Thanks to Microverse for their curriculum
+- Thanks to morning session team
+- Thanks to stand up team
+- Thanks to code reviewers
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
