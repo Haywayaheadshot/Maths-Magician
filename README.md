@@ -84,7 +84,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Live Demo
 
-To see live demo, click [here](https://haywayaheadshot.github.io/maths-magician/)
+To see live demo, click [here](https://haywayaheadshot.github.io/Maths-Magician/)
 
 ### Setup
 - To clone the repository run this command - " git clone https://github.com/Haywayaheadshot/maths-magician.git "
