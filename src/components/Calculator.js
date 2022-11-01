@@ -1,8 +1,12 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 import './calculator.css';
 
 class Calculator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
       <div className="calculator-container">
