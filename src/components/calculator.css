@@ -11,11 +11,9 @@
   min-height: 4em;
   text-align: end;
   color: #fff;
-}
-
-.output-display::placeholder {
-  color: #fff;
-  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .buttons-div {
