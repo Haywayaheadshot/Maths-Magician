@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Live Demo
 
-To see live demo, click [here](https://636193f25dc0385a868d3858--dashing-cranachan-aa1109.netlify.app/)
+To see live demo, click [here](https://dashing-cranachan-aa1109.netlify.app/)
 
 ### Setup
 - To clone the repository run this command - " git clone https://github.com/Haywayaheadshot/maths-magician.git "
