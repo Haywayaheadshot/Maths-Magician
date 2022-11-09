@@ -1,0 +1,27 @@
+body {
+  min-height: 100vh;
+}
+
+.header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.home-paragraph {
+  padding: 0 2vw;
+  font-weight: 500;
+}
+
+@media (min-width: 760px) {
+  .header {
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 2vw;
+  }
+
+  .home-paragraph {
+    padding: 5vh 2vw;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}
