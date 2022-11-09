@@ -7,15 +7,15 @@
 }
 
 .calc-image {
-max-width: 50vw;
-height: auto;
-margin-top: 3vh;
+  max-width: 50vw;
+  height: auto;
+  margin-top: 3vh;
 }
 
 .calculator {
   margin-top: 4vh;
   margin-bottom: 10vh;
-  box-shadow: 0 0 50px 20px #2488FF;
+  box-shadow: 0 0 50px 20px #2488ff;
 }
 
 .output-display {
@@ -72,15 +72,15 @@ margin-top: 3vh;
   .buttons-div {
     min-width: inherit;
   }
-  
+
   .calc-image {
     max-width: 20vw;
     height: auto;
   }
 
   .calculator-container {
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 10vh 5vw;
   }
 }
