@@ -1,81 +1,99 @@
 .navigation {
-    max-height: 3vh;
-    border-bottom: 2px solid red;
-    max-width: 100%;
-    padding: 2vh 5vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background: #005ECE;
+  max-height: 3vh;
+  border-bottom: 2px solid red;
+  max-width: 100%;
+  padding: 2vh 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #005ece;
 }
 
 .logo-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #fff;
 }
 
 .logo-image {
-    max-width: 5vw;
-    padding-right: 12px;
+  max-width: 5vw;
+  padding-right: 12px;
 }
 
-.hamburger-button {
-    width: fit-content;
-    height: fit-content;
-    background-color: inherit;
-    border: none;
+.hamburger-div {
+  display: grid;
+  place-content: center;
 }
 
-.hamburger {
-    max-width: 7vw;
+.nav-ul {
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.menu-pop-up {
-    position: fixed;
-    min-height: 100vh;
-    padding: 12px 20px;
-    background-color: red;
-    top: 0;
+.nav-link {
+  color: #fff;
+  border-right: 2px solid red;
+  padding-right: 3px;
+  font-size: 12px;
+}
+
+.menu-pop-up-li {
+  max-height: 2vh;
+}
+
+.phone-ul {
+  /* position: fixed; */
+  min-height: 10vh;
+  padding: 12px 20px;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .for-desktop {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 760px) {
-    .for-phone {
-        display: none;
-    }
+  .for-phone {
+    display: none;
+  }
 
-    .for-desktop {
-        display: block;
-    }
+  .for-desktop {
+    display: block;
+  }
 
-    .nav-desktop-ul {
-        display: flex;
-        gap: 12px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
+  .nav-ul {
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
-    .nav-link {
-        color: #fff;
-        border-right: 3px solid red;
-        padding-right: 10px;
-    }
+  .nav-link {
+    color: #fff;
+    border-right: 3px solid red;
+    padding-right: 10px;
+  }
 
-    a:hover {
-        text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 
-    a:active {
-        text-decoration: none;
-    }
+  a:hover {
+    text-decoration: none;
+  }
 
-    a {
-        text-decoration: none;
-    }
+  a:active {
+    text-decoration: none;
+  }
 }
