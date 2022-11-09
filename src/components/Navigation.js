@@ -1,6 +1,7 @@
 import React from 'react';
 import './navigation.css';
 // import Hamburger from 'hamburger-react';
+import { NavLink } from 'react-router-dom';
 import logo from '../images/icons/logo.png';
 
 const Navigation = () => (
@@ -33,9 +34,21 @@ const Navigation = () => (
       </div> */}
       <section>
         <ul className="nav-ul">
-          <li><a className="nav-link" href="/">Home</a></li>
-          <li><a className="nav-link" href="/calculator">Calculator</a></li>
-          <li><a className="nav-link" href="/quotes">Quotes</a></li>
+          <li>
+            <NavLink className="nav-link" to="/">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="nav-link" to="/calculator">
+              Calculator
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="nav-link" to="/quotes">
+              Quotes
+            </NavLink>
+          </li>
         </ul>
       </section>
     </nav>
