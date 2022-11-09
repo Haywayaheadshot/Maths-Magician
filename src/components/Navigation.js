@@ -31,6 +31,5 @@ const Navigation = () => (
       </section>
     </nav>
   </div>
-  // );
 );
 export default Navigation;
