@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.paragraph {
+  margin-top: -30px;
+  padding: 0 3vw;
+  font-size: 2.5rem;
+  text-align: center;
+}
