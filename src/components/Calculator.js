@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './calculator.css';
 import calculate from '../logic/calculate';
+import calcImage from '../images/calculator-image.png';
 
 const Calculator = () => {
   const [count, setCount] = useState({
@@ -18,6 +19,10 @@ const Calculator = () => {
   const { total, next, operation } = count;
   return (
     <div className="calculator-container">
+      <section>
+        <h1 className="for-destkop desk-heading">Lets Do Some Maths</h1>
+        <img className="calc-image" src={calcImage} alt="Mathematical set arranged together" />
+      </section>
       <div className="calculator">
         <div className="output-display">
           {total}
