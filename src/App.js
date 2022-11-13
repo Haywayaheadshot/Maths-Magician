@@ -7,7 +7,7 @@ import Quotes from './components/pages/Quotes';
 
 const App = () => (
   <Router>
-    <div className="App">
+    <main className="App">
       <Navigation />
       <div className="container">
         <Routes>
@@ -16,7 +16,7 @@ const App = () => (
           <Route exact path="/quotes" element={<Quotes />} />
         </Routes>
       </div>
-    </div>
+    </main>
   </Router>
 );
 
