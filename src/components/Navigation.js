@@ -24,17 +24,17 @@ function Navigation() {
             ? (
               <ul className="nav-ul-phone">
                 <li>
-                  <NavLink className="nav-link" to="/">
+                  <NavLink onClick={() => isClosed(false)} className="nav-link" to="/">
                     Home
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="nav-link" to="/calculator">
+                  <NavLink onClick={() => isClosed(false)} className="nav-link" to="/calculator">
                     Calculator
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="nav-link" to="/quotes">
+                  <NavLink onClick={() => isClosed(false)} className="nav-link" to="/quotes">
                     Quotes
                   </NavLink>
                 </li>
